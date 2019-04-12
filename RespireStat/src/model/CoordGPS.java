@@ -11,12 +11,4 @@ public class CoordGPS {
 		latitude = la;
 		longitude = lo;
 	}
-	
-	public double getLatitude(){
-		return latitude;
-	}
-	
-	public double getLongitude(){
-		return longitude;
-	}
 }
