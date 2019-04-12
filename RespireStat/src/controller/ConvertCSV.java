@@ -5,6 +5,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import com.opencsv.CSVReader;
 
+import model.CoordGPS;
 import model.Etablissement;
 
 public class ConvertCSV {
@@ -20,7 +21,7 @@ public class ConvertCSV {
 			System.out.println();
 			new Etablissement(nextLine);
 			
-			
+			new CoordGPS(nextLine[24]);
 			}
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
