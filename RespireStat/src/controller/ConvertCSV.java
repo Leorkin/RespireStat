@@ -19,6 +19,8 @@ public class ConvertCSV {
 				}
 			System.out.println();
 			new Etablissement(nextLine);
+			
+			
 			}
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
