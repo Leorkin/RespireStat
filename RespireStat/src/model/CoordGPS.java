@@ -7,8 +7,16 @@ public class CoordGPS {
 	public CoordGPS(String s) {
 		
 	}
-	public CoordGPS(double l, double L) {
-		latitude = l;
-		longitude = L;
+	public CoordGPS(double la, double lo) {
+		latitude = la;
+		longitude = lo;
+	}
+	
+	public double getLatitude(){
+		return latitude;
+	}
+	
+	public double getLongitude(){
+		return longitude;
 	}
 }
