@@ -1,3 +1,4 @@
+package model;
 
 public class Etablissement {
 	private String identifiant;
