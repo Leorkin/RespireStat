@@ -11,5 +11,10 @@ public class Etablissement {
 		identifiant = nextLine[0];
 		nomEtablissement = nextLine[1];
 		
+		lieuEtablissement = Lieu;
+		typeEtablissement = Type;
+		coordonneesEtablissement = CoordGPS;
+		
+		
 	}
 }
